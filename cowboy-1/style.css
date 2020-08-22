@@ -27,3 +27,33 @@ html, body {
     background: #f4c09a;
     border-radius: 30px;
 }
+
+.hat {
+    position: absolute;
+    width: 35vmin;
+    height: 15vmin;
+    background: #008792;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.hat:after {
+    content: "";
+    display: block;
+    position: absolute;
+    background: #235558;
+    width: 55vmin;
+    height: 1vmin;
+    top: 14vmin;
+    left: -10vmin;
+}
+
+.mask {
+    position: absolute;
+    bottom: 0;
+    width: 35vmin;
+    height: 15vmin;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background: #BE2454;
+}
