@@ -117,6 +117,32 @@ html, body {
     background: #BE2454;
 }
 
+.mask:before {
+    content: "";
+    display: block;
+    position: absolute;
+    right: -6vmin;
+    width: 12vmin;
+    height: 4vmin;
+    border-radius: 50px;
+    background: #6F0C26;
+    z-index: -2;
+}
+
+.mask:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 2vmin;
+    right: -6vmin;
+    width: 10vmin;
+    height: 4vmin;
+    background: #9A1A41;
+    border-radius: 50px;
+    transform: rotate(40deg);
+    z-index: -2;
+}
+
 .fold {
     position: absolute;
     top: 4vmin;
