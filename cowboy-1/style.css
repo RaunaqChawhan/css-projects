@@ -48,6 +48,36 @@ html, body {
     left: -10vmin;
 }
 
+.left-eye {
+    position: absolute;
+    top: 16.5vmin;
+    left: 2vmin;
+    width: 2vmin;
+    height: 2vmin;
+    background: #aa6c5e;
+    border-radius: 50%;
+}
+
+.right-eye {
+    position: absolute;
+    top: 17.25vmin;
+    right: 6vmin;
+    width: 4vmin;
+    height: 0.5vmin;
+    background: #aa6c5e;
+    border-radius: 50px;
+}
+
+.ear {
+    position: absolute;
+    top: 15.5vmin;
+    right: -2vmin;
+    width: 4vmin;
+    height: 4vmin;
+    border-radius: 50%;
+    background: #f4c09a;
+}
+
 .mask {
     position: absolute;
     bottom: 0;
@@ -56,4 +86,26 @@ html, body {
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
     background: #BE2454;
+}
+
+.fold {
+    position: absolute;
+    top: 4vmin;
+    left: 2vmin;
+    width: 25vmin;
+    height: 0.5vmin;
+    background: #A61945;
+    border-radius: 100px;
+}
+
+.fold:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 2vmin;
+    left: 6vmin;
+    width: 25vmin;
+    height: 0.5vmin;
+    background: #A61945;
+    border-radius: 100px;
 }
