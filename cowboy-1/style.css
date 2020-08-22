@@ -48,6 +48,35 @@ html, body {
     left: -10vmin;
 }
 
+.hair {
+    position: absolute;
+    top: 5vmin;
+    left: 8vmin;
+    width: 0;
+    height: 0;
+    border-top: 10vmin solid transparent;
+    border-right: 10vmin solid transparent;
+    border-bottom: 10vmin solid transparent;
+    border-left: 10vmin solid #142f3c;
+    z-index: 1;
+    transform: rotate(-45deg);
+}
+
+.hair:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: -2.2vmin;
+    left: -2vmin;
+    width: 0;
+    height: 0;
+    border-top: 5vmin solid transparent;
+    border-right: 5vmin solid transparent;
+    border-bottom: 5vmin solid transparent;
+    border-left: 5vmin solid #142f3c;
+    z-index: 1;
+}
+
 .left-eye {
     position: absolute;
     top: 16.5vmin;
