@@ -46,6 +46,7 @@ html, body {
     height: 1vmin;
     top: 14vmin;
     left: -10vmin;
+    z-index: 2;
 }
 
 .hair {
@@ -66,7 +67,7 @@ html, body {
     content: "";
     display: block;
     position: absolute;
-    top: -2.2vmin;
+    top: -2vmin;
     left: -2vmin;
     width: 0;
     height: 0;
@@ -163,4 +164,39 @@ html, body {
     height: 0.5vmin;
     background: #A61945;
     border-radius: 100px;
+}
+
+.left-hand {
+    position: absolute;
+    top: 40vmin;
+    width: 32vmin;
+    height: 32vmin;
+    border: 1px solid black;
+}
+
+.left-hand .joint-1 {
+    position: absolute;
+    right: 0;
+    width: 16vmin;
+    height: 8vmin;
+    background: #152E3C;
+    border-radius: 50px;
+}
+
+.left-hand .connect {
+    position: absolute;
+    border: 1px solid black;
+    width: 20vmin;
+    height: 20vmin;
+}
+
+.left-hand .joint-2 {
+    position: absolute;
+    right: 0;
+    width: 16vmin;
+    height: 8vmin;
+    background: red;
+    /* border-radius: 50px; */
+    transform-origin: left;
+    transform: rotate(10deg);
 }
