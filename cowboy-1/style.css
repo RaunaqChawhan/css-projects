@@ -253,3 +253,73 @@ html, body {
     right: -1.2vmin;
     top: 23.2vmin;
 }
+
+.torso {
+    position: absolute;
+    left: 36%;
+    top: 27vmin;
+    width: 25vmin;
+    height: 20vmin;
+    border-radius: 25px;
+    background: #152E3C;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.torso:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 11.5vmin;
+    width: 25vmin;
+    height: 3vmin;
+    background: #BC7665;
+}
+
+.torso:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 10.5vmin;
+    left: 4vmin;
+    width: 8.5vmin;
+    height: 5vmin;
+    border-radius: 14px;
+    background: #B7C7D5;
+}
+
+.holster {
+    position: absolute;
+    top: 37.6vmin;
+    right: 24vmin;
+    width: 3.8vmin;
+    height: 11.4vmin;
+    background: #72443C;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.holster:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: -1.4vmin;
+    left: 0.5vmin;
+    background: #7A95A7;
+    width: 9vmin;
+    height: 3.5vmin;
+    z-index: -1;
+    border-radius: 40px;
+}
+
+.holster:after {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 1.5vmin;
+    width: 4vmin;
+    height: 4vmin;
+    border: 4px solid #7A95A7;
+    border-radius: 50%;
+    z-index: -2;
+}
