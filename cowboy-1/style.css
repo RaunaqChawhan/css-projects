@@ -14,7 +14,6 @@ html, body {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    /* border: 1px solid black; */
     width: 80vmin;
     height: 80vmin;
 }
@@ -172,7 +171,6 @@ html, body {
     top: 40vmin;
     width: 32vmin;
     height: 21.2vmin;
-    /* border: 1px solid black; */
     z-index: -1;
 }
 
@@ -187,13 +185,11 @@ html, body {
 
 .left-hand .connect, .right-hand .connect {
     position: absolute;
-    /* border: 1px solid black; */
     width: 30vmin;
     height: 8vmin;
     top: 7vmin;
     right: 7vmin;
     z-index: -2;
-    /* transform-origin: right; */
     transform: rotate(-40deg);
 }
 
@@ -209,7 +205,6 @@ html, body {
 
 .left-hand .connect .palm, .right-hand .connect .palm {
     position: absolute;
-    /* top: 8vmin; */
     left: 1.9vmin;
     width: 14vmin;
     height: 8vmin;
@@ -235,7 +230,6 @@ html, body {
     display: block;
     position: absolute;
     top: 3.2vmin;
-    /* left: 7vmin; */
     right: 2.2vmin;
     width: 3.5vmin;
     height: 7vmin;
@@ -246,7 +240,6 @@ html, body {
 
 .left-hand {
     top: 23.2vmin;
-    /* left: -1.2vmin; */
 }
 
 .right-hand {
@@ -331,7 +324,6 @@ html, body {
     left: 18.2vmin;
     width: 18vmin;
     height: 15vmin;
-    /* border: 1px solid black; */
     z-index: -2;
 }
 
@@ -352,7 +344,6 @@ html, body {
     right: 1.4vmin;
     width: 16vmin;
     height: 10vmin;
-    /* border: 1px solid black; */
 }
 
 .left-leg .connect .boot, .right-leg .connect .boot {
@@ -361,7 +352,6 @@ html, body {
     width: 7.6vmin;
     height: 10vmin;
     background: #152E3C;
-    /* background: red; */
     border-top-left-radius: 10px;
 }
 
