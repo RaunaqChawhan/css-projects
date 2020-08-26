@@ -6,6 +6,7 @@
 
 html, body {
     box-sizing: inherit;
+    background: #fdf59c;
 }
 
 .cowboy-container {
@@ -13,7 +14,7 @@ html, body {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 80vmin;
     height: 80vmin;
 }
@@ -322,4 +323,129 @@ html, body {
     border: 4px solid #7A95A7;
     border-radius: 50%;
     z-index: -2;
+}
+
+.left-leg, .right-leg {
+    position: absolute;
+    top: 43.2vmin;
+    left: 18.2vmin;
+    width: 18vmin;
+    height: 15vmin;
+    /* border: 1px solid black; */
+    z-index: -2;
+}
+
+.left-leg .joint, .right-leg .joint {
+    position: absolute;
+    width: 16vmin;
+    height: 8vmin;
+    right: 0;
+    border-radius: 30px;
+    border-top-left-radius: 34px;
+    background: #152E3C;
+    transform: rotate(-40deg);
+}
+
+.left-leg .connect, .right-leg .connect {
+    position: absolute;
+    top: 5vmin;
+    right: 1.4vmin;
+    width: 16vmin;
+    height: 10vmin;
+    /* border: 1px solid black; */
+}
+
+.left-leg .connect .boot, .right-leg .connect .boot {
+    position: absolute;
+    right: 6vmin;
+    width: 7.6vmin;
+    height: 10vmin;
+    background: #152E3C;
+    /* background: red; */
+    border-top-left-radius: 10px;
+}
+
+.left-leg .connect .boot:before, .right-leg .connect .boot:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 4vmin;
+    width: 7.6vmin;
+    height: 6vmin;
+    background: #A26459;
+}
+
+.left-leg .connect .boot:after, .right-leg .connect .boot:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 6vmin;
+    right: 2vmin;
+    width: 8vmin;
+    height: 4vmin;
+    background: #C67A6A;
+    border-radius: 70px 70px 0 0;
+}
+
+.left-leg .connect .wheel, .right-leg .connect .wheel {
+    position: absolute;
+    top: 5.4vmin;
+    right: 0;
+    width: 3.8vmin;
+    height: 3.8vmin;
+    background: #8E99A3;
+    border-radius: 50%;
+}
+
+.left-leg .connect .wheel:before, .right-leg .connect .wheel:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 1.5vmin;
+    right: 2.6vmin;
+    width: 3.8vmin;
+    height: 1.1vmin;
+    background: #8E99A3;
+    z-index: -1;
+}
+
+.right-leg {
+    transform: rotate3d(0, 1, 0, 180deg);
+    left: 46.2vmin;
+}
+
+.ground {
+    position: absolute;
+    left: 50%;
+    top: 55vmin;
+    transform: translate(-50%);
+    background: #FED883;
+    border-radius: 100px;
+    width: 90vmin;
+    height: 5.5vmin;
+    z-index: -3;
+}
+
+.ground:before {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 2vmin;
+    right: 12vmin;
+    background: #FED883;
+    border-radius: 100px;
+    width: 2.6vmin;
+    height: 12vmin;
+}
+
+.ground:after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 9vmin;
+    right: 7.5vmin;
+    background: #FED883;
+    border-radius: 100px;
+    width: 12vmin;
+    height: 2.6vmin;
 }
