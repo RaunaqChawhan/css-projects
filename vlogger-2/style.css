@@ -1,0 +1,19 @@
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    box-sizing: inherit;
+}
+
+.vlogger-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid black;
+    width: 80vmin;
+    height: 80vmin;
+}
