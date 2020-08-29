@@ -17,3 +17,32 @@ html, body {
     width: 80vmin;
     height: 80vmin;
 }
+
+.vlogger-head {
+    position: absolute;
+    left: 34vmin;
+    width: 12vmin;
+    height: 21.5vmin;
+    background: #F4C09B;
+    border-radius: 100px;
+}
+
+.cap {
+    position: absolute;
+    width: 12vmin;
+    height: 8.8vmin;
+    background: #E62F65;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+}
+
+.cap:before {
+    content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 18vmin;
+    height: 0.5vmin;
+    background: #BB1F4A;
+}
