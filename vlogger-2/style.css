@@ -46,3 +46,65 @@ html, body {
     height: 0.5vmin;
     background: #BB1F4A;
 }
+
+.cap:after {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 4vmin;
+    bottom: 0.9vmin;
+    width: 4vmin;
+    height: 3vmin;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    background: #142F3C;
+}
+
+.hair {
+    position: absolute;
+    top: 4.96vmin;
+    left: 4.1vmin;
+    width: 0;
+    height: 0;
+    border-top: 3.8vmin solid transparent;
+    border-right: 3.8vmin solid transparent;
+    border-bottom: 3.8vmin solid transparent;
+    border-left: 3.8vmin solid #142F3C;
+    transform: rotate(-45deg);
+}
+
+.hair:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: -1.2vmin;
+    left: -1.2vmin;
+    width: 0;
+    height: 0;
+    border-top: 1.9vmin solid transparent;
+    border-right: 1.9vmin solid transparent;
+    border-bottom: 1.9vmin solid transparent;
+    border-left: 1.9vmin solid #142F3C;
+}
+
+.left-eye {
+    position: absolute;
+    top: 9.8vmin;
+    left: 1vmin;
+    width: 1.5vmin;
+    height: 1.5vmin;
+    background: #142F3C;
+    border-radius: 50%;
+}
+
+.right-eye {
+    position: absolute;
+    top: 9.8vmin;
+    right: 1vmin;
+    width: 1.5vmin;
+    height: 1.5vmin;
+    background: #142F3C;
+    border-radius: 50%;
+}
+
+/* height: 12.7vmin   --> half is 6.35vmin */
