@@ -87,6 +87,30 @@ html, body {
     border-left: 1.9vmin solid #142F3C;
 }
 
+.left-ear {
+    position: absolute;
+    top: 8.8vmin;
+    left: -1.5vmin;
+    width: 3vmin;
+    height: 3vmin;
+    background: #E78074;
+    border: 0.86vmin solid #F4C09B;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.right-ear {
+    position: absolute;
+    top: 8.8vmin;
+    right: -1.5vmin;
+    width: 3vmin;
+    height: 3vmin;
+    background: #E78074;
+    border: 0.86vmin solid #F4C09B;
+    border-radius: 50%;
+    z-index: -1;
+}
+
 .left-eye {
     position: absolute;
     top: 9.8vmin;
@@ -105,6 +129,74 @@ html, body {
     height: 1.5vmin;
     background: #142F3C;
     border-radius: 50%;
+}
+
+.left-nostril {
+    position: absolute;
+    left: 4.6vmin;
+    top: 15vmin;
+    width: 0.9vmin;
+    height: 0.9vmin;
+    border-radius: 100px;
+    background: #E78074;
+}
+
+.right-nostril {
+    position: absolute;
+    left: 6.6vmin;
+    top: 15vmin;
+    width: 0.9vmin;
+    height: 0.9vmin;
+    border-radius: 100px;
+    background: #E78074;
+}
+
+.mouth-container {
+    position: absolute;
+    /* border: 1px solid black; */
+    top: 10vmin;
+    width: 10vmin;
+    height: 10vmin;
+    transform: rotate(55deg);
+}
+
+.mouth {
+    position: absolute;
+    top: 10.3vmin;
+    right: 1.5vmin;
+    width: 9vmin;
+    height: 9vmin;
+    background: transparent;
+    border-radius: 50%;
+    border: 1vmin solid transparent;
+    border-top: 1vmin solid transparent;
+    border-bottom: 1vmin solid transparent;
+    border-right: 1vmin solid #E78074;
+    transform: rotate(55deg);
+}
+
+.mouth:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0.15vmin;
+    right: 0.3vmin;
+    width: 1vmin;
+    height: 1vmin;
+    background: #E78074;
+    border-radius: 100px;
+}
+
+.mouth:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 5.9vmin;
+    right: 0.16vmin;
+    width: 1vmin;
+    height: 1vmin;
+    background: #E78074;
+    border-radius: 100px;
 }
 
 /* height: 12.7vmin   --> half is 6.35vmin */
