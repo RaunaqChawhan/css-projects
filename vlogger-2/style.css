@@ -153,50 +153,76 @@ html, body {
 
 .mouth-container {
     position: absolute;
+    top: 15.3vmin;
+    left: 5.8vmin;
+    width: 4.4vmin;
+    height: 4.4vmin;
     /* border: 1px solid black; */
-    top: 10vmin;
-    width: 10vmin;
-    height: 10vmin;
-    transform: rotate(55deg);
+    transform: scale(0.85);
 }
 
 .mouth {
     position: absolute;
-    top: 10.3vmin;
-    right: 1.5vmin;
-    width: 9vmin;
-    height: 9vmin;
+    width: 4.4vmin;
+    height: 4.4vmin;
     background: transparent;
-    border-radius: 50%;
-    border: 1vmin solid transparent;
-    border-top: 1vmin solid transparent;
-    border-bottom: 1vmin solid transparent;
+    border-bottom-right-radius: 100px;
     border-right: 1vmin solid #E78074;
-    transform: rotate(55deg);
+    border-bottom: 1vmin solid #E78074;
 }
 
-.mouth:before {
-    content: "";
-    display: block;
+.mouth-left-end {
     position: absolute;
-    top: 0.15vmin;
-    right: 0.3vmin;
-    width: 1vmin;
-    height: 1vmin;
+    top: 3.3vmin;
+    left: -0.5vmin;
+    width: 0.9vmin;
+    height: 0.9vmin;
     background: #E78074;
     border-radius: 100px;
 }
 
-.mouth:after {
-    content: "";
-    display: block;
+.mouth-right-end {
     position: absolute;
-    top: 5.9vmin;
-    right: 0.16vmin;
-    width: 1vmin;
-    height: 1vmin;
+    top: -0.5vmin;
+    left: 3.3vmin;
+    width: 0.9vmin;
+    height: 0.9vmin;
     background: #E78074;
     border-radius: 100px;
 }
 
 /* height: 12.7vmin   --> half is 6.35vmin */
+
+.torso {
+    position: absolute;
+    top: 13.5vmin;
+    left: 25vmin;
+    width: 30vmin;
+    height: 30vmin;
+    background: #FBA919;
+    border-radius: 40vmin;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.torso:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 17vmin;
+    width: 30vmin;
+    height: 13vmin;
+    background: #C42754;
+}
+
+.torso:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 10vmin;
+    left: 2vmin;
+    width: 5vmin;
+    height: 1vmin;
+    background: #F1821D;
+    border-radius: 20px;
+}
