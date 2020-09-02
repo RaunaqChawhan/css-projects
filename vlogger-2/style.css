@@ -193,6 +193,31 @@ html, body {
 
 /* height: 12.7vmin   --> half is 6.35vmin */
 
+.left-hand {
+    position: absolute;
+    top: 16.2vmin;
+    width: 9vmin;
+    height: 45vmin;
+    border: 1px solid black;
+}
+
+.left-hand .connect {
+    position: absolute;
+    width: 9vmin;
+    height: 45vmin;
+    background: #F58020;
+    border-radius: 100px;
+}
+
+.left-hand .connect .sleeve {
+    position: absolute;
+    left: -1.2vmin;
+    bottom: 10vmin;
+    width: 11vmin;
+    height: 2vmin;
+    background: #FBA919;
+}
+
 .torso {
     position: absolute;
     top: 13.5vmin;
