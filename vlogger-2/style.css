@@ -191,20 +191,20 @@ html, body {
     border-radius: 100px;
 }
 
-/* height: 12.7vmin   --> half is 6.35vmin */
-
 .left-hand {
     position: absolute;
-    top: 16.2vmin;
+    top: 16vmin;
+    left: 20vmin;
     width: 9vmin;
-    height: 45vmin;
-    border: 1px solid black;
+    height: 39vmin;
+    /* border: 1px solid black; */
+    z-index: -1;
 }
 
 .left-hand .connect {
     position: absolute;
     width: 9vmin;
-    height: 45vmin;
+    height: 39vmin;
     background: #F58020;
     border-radius: 100px;
 }
@@ -212,10 +212,41 @@ html, body {
 .left-hand .connect .sleeve {
     position: absolute;
     left: -1.2vmin;
-    bottom: 10vmin;
+    bottom: 9vmin;
     width: 11vmin;
     height: 2vmin;
     background: #FBA919;
+}
+
+.left-hand .connect .sleeve:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0.4vmin;
+    left: 0.4vmin;
+    width: 1.2vmin;
+    height: 1.2vmin;
+    border-radius: 100px;
+    background: #142F3C;
+}
+
+.left-hand .palm {
+    position: absolute;
+    bottom: 0;
+    width: 9vmin;
+    height: 9vmin;
+    background: #F4C09B;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+
+.left-hand .palm:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 9vmin;
+    height: 1vmin;
+    background: #EC8079;
 }
 
 .torso {
