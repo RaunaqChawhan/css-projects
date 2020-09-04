@@ -249,6 +249,60 @@ html, body {
     background: #EC8079;
 }
 
+.right-hand {
+    position: absolute;
+    top: 48vmin;
+    width: 50vmin;
+    height: 50vmin;
+    border: 1px solid black;
+}
+
+.right-hand .connect {
+    position: absolute;
+    width: 19.5vmin;
+    height: 19.5vmin;
+    border: 1px solid brown;
+}
+
+.right-hand .connect .join-1 {
+    position: absolute;
+    right: 0;
+    width: 9vmin;
+    height: 19.5vmin;
+    background: #F58020;
+    border-radius: 100px;
+}
+
+.right-hand .connect .join-2 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 19.5vmin;
+    height: 9vmin;
+    background: #F58020;
+    border-radius: 100px;
+}
+
+.right-hand .palm {
+    position: absolute;
+    bottom: 0;
+    width: 9vmin;
+    height: 9vmin;
+    background: #F4C09B;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+
+.right-hand .palm:before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 8vmin;
+    width: 1vmin;
+    height: 9vmin;
+    background: #EC8079;
+}
+
 .torso {
     position: absolute;
     top: 13.5vmin;
