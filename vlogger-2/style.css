@@ -249,41 +249,57 @@ html, body {
     background: #EC8079;
 }
 
-.right-hand {
+.right-hand-1 {
     position: absolute;
-    top: 48vmin;
-    width: 50vmin;
-    height: 50vmin;
-    border: 1px solid black;
+    top: 21vmin;
+    left: 41vmin;
+    width: 22vmin;
+    height: 20vmin;
+    /* border: 1px solid black; */
 }
 
-.right-hand .connect {
+.right-hand-1 .connect {
     position: absolute;
-    width: 19.5vmin;
-    height: 19.5vmin;
-    border: 1px solid brown;
+    /* width: 19.5vmin; */
+    /* height: 19.5vmin; */
+    width: 21vmin;
+    height: 18vmin;
+    /* border: 1px solid brown; */
+    transform: rotate(-30deg);
 }
 
-.right-hand .connect .join-1 {
-    position: absolute;
-    right: 0;
-    width: 9vmin;
-    height: 19.5vmin;
-    background: #F58020;
-    border-radius: 100px;
-}
-
-.right-hand .connect .join-2 {
+.right-hand-1 .connect .join-2 {
     position: absolute;
     bottom: 0;
     right: 0;
-    width: 19.5vmin;
+    width: 21vmin;
     height: 9vmin;
     background: #F58020;
     border-radius: 100px;
 }
 
-.right-hand .palm {
+.right-hand-1 .connect .sleeve {
+    position: absolute;
+    bottom: -1vmin;
+    left: 9vmin;
+    width: 2vmin;
+    height: 11vmin;
+    background: #FBA919;
+}
+
+.right-hand-1 .connect .sleeve:before {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0.4vmin;
+    left: 0.4vmin;
+    width: 1.2vmin;
+    height: 1.2vmin;
+    border-radius: 100px;
+    background: #142F3C;
+}
+
+.right-hand-1 .palm {
     position: absolute;
     bottom: 0;
     width: 9vmin;
@@ -293,7 +309,7 @@ html, body {
     border-bottom-left-radius: 100px;
 }
 
-.right-hand .palm:before {
+.right-hand-1 .palm:before {
     content: "";
     display: block;
     position: absolute;
@@ -301,6 +317,39 @@ html, body {
     width: 1vmin;
     height: 9vmin;
     background: #EC8079;
+}
+
+.right-hand-2 {
+    position: absolute;
+    top: 16vmin;
+    right: 18vmin;
+    width: 20vmin;
+    height: 20vmin;
+    /* border: 1px solid; */
+}
+
+.right-hand-2 .join-1 {
+    position: absolute;
+    right: 0;
+    width: 9vmin;
+    height: 19.5vmin;
+    background: #F58020;
+    border-radius: 100px;
+    z-index: -2;
+    transform: rotate(-30deg);
+}
+
+.right-hand-2 .join-1:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 3vmin;
+    right: 1.5vmin;
+    width: 3.5vmin;
+    height: 3.5vmin;
+    background: #FBA919;
+    border-radius: 100px;
+    transform: rotate(-30deg);
 }
 
 .torso {
