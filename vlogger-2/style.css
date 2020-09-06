@@ -385,3 +385,57 @@ html, body {
     background: #F1821D;
     border-radius: 20px;
 }
+
+.camera {
+    position: absolute;
+    top: 27vmin;
+    left: 50%;
+    width: 15vmin;
+    height: 9vmin;
+    background: #0E3441;
+    border-radius: 18px;
+    transform: translate(-50%);
+    z-index: -1;
+}
+
+.camera:before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 3vmin;
+    bottom: 9vmin;
+    width: 1.5vmin;
+    height: 10vmin;
+    background: #0E3441;
+}
+
+.camera:after {
+    content: "";
+    display: block;
+    position: absolute;
+    right: 3vmin;
+    bottom: 9vmin;
+    width: 1.5vmin;
+    height: 10vmin;
+    background: #0E3441;
+}
+
+.camera .lens {
+    position: absolute;
+    top: 1.25vmin;
+    left: 1.25vmin;
+    width: 6.5vmin;
+    height: 6.5vmin;
+    background: #FFFFFF;
+    border-radius: 50px;
+}
+
+.camera .flash {
+    position: absolute;
+    top: 1.5vmin;
+    right: 1.8vmin;
+    width: 2.5vmin;
+    height: 1.25vmin;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
